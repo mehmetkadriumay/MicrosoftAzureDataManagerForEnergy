@@ -202,9 +202,7 @@ MicrosoftAzureDataManagerForEnergy = [
             { "MicrosoftAzureDataManagerForEnergy.Search", serviceName, dataPartition, kind, query }, 
     Authentication = [
         Aad = [
-            //AuthorizationUri = "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize",
             AuthorizationUri = "https://login.microsoftonline.com/common/oauth2/authorize",
-            //Resource = "adac3964-eae5-48c2-8164-d6286fdb968c",
             Resource = "dffa82c7-cb2f-4a0a-9e8f-7e86fd7b245e",
             Scope = ".default"
 
