@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="buttonHelp" xml:space="preserve">
+    <value>Connect to Microsoft Azure Data Manager for Energy</value>
+  </data>
+  <data name="buttonTitle" xml:space="preserve">
+    <value>Microsoft Azure Data Manager for Energy</value>
+  </data>
+  <data name="clientIdFieldCaption" xml:space="preserve">
+    <value>Azure AD Application Client ID</value>
+  </data>
+  <data name="clientIdFieldDescription" xml:space="preserve">
+    <value>The ID of the Azure AD Application used to create the Microsoft Azure Data Manager for Energy instance</value>
+  </data>
+  <data name="dataPartitionFieldCaption" xml:space="preserve">
+    <value>Data Partition</value>
+  </data>
+  <data name="dataPartitionFieldDescription" xml:space="preserve">
+    <value>The ID of the Microsoft Azure Data Manager for Energy data partition</value>
+  </data>
+  <data name="dataPartitionSampleValues" xml:space="preserve">
+    <value>platform4321-opendes</value>
+  </data>
+  <data name="dataSourceLabel" xml:space="preserve">
+    <value>Microsoft Azure Data Manager for Energy</value>
+  </data>
+  <data name="documentationLongDescription" xml:space="preserve">
+    <value>Queries for records in the Microsoft Azure Data Manager for Energy instance</value>
+  </data>
+  <data name="documentationName" xml:space="preserve">
+    <value>Microsoft Azure Data Manager for Energy Search</value>
+  </data>
+  <data name="errorNegativeLimit" xml:space="preserve">
+    <value>Limit cannot be negative</value>
+  </data>
+  <data name="exampleDescription" xml:space="preserve">
+    <value>Returns a record that contains the count of records which satisfy the query, and a table of records that's been optionally limited by the limit parameter</value>
+  </data>
+  <data name="exampleResult" xml:space="preserve">
+    <value>A navigation table containing [Count = 4947, Records = #table({""Records""}, {{[...]}, {[...]}})]</value>
+  </data>
+  <data name="kindFieldCaption" xml:space="preserve">
+    <value>Record Kind</value>
+  </data>
+  <data name="kindFieldDescription" xml:space="preserve">
+    <value>The kind of the record to query</value>
+  </data>
+  <data name="limitFieldCaption" xml:space="preserve">
+    <value>Limit</value>
+  </data>
+  <data name="limitFieldDescription" xml:space="preserve">
+    <value>The maximum number of results to return</value>
+  </data>
+  <data name="queryFieldCaption" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="queryFieldDescription" xml:space="preserve">
+    <value>Query string based on Lucene query string syntax</value>
+  </data>
+  <data name="returnedFieldsFieldCaption" xml:space="preserve">
+    <value>Returned Fields</value>
+  </data>
+  <data name="returnedFieldsFieldDescription" xml:space="preserve">
+    <value>The fields on which to project the results</value>
+  </data>
+  <data name="serviceNameFieldCaption" xml:space="preserve">
+    <value>Microsoft Azure Data Manager for Energy Name</value>
+  </data>
+  <data name="serviceNameFieldDescription" xml:space="preserve">
+    <value>Name of the Microsoft Azure Data Manager for Energy instance</value>
+  </data>
+  <data name="serviceNameSampleValues" xml:space="preserve">
+    <value>platform4321</value>
+  </data>
+  <data name="tenantIdFieldDescription" xml:space="preserve">
+    <value>The ID of the Azure AD tenant the Azure AD Application belongs to</value>
+  </data>
+  <data name="tentantIdFieldCaption" xml:space="preserve">
+    <value>Azure AD Tenant ID</value>
+  </data>
+</root>
