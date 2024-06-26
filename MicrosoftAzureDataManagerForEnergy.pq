@@ -30,7 +30,9 @@ MicrosoftAzureDataManagerForEnergyType = type function (
     query as (type text meta [
         Documentation.FieldCaption = Extension.LoadString("queryFieldCaption"),
         Documentation.FieldDescription = Extension.LoadString("queryFieldDescription"),
-        Documentation.SampleValues = {"*"}
+        Documentation.SampleValues = {"*"},
+        Formatting.IsMultiLine = true,
+        Formatting.IsCode = true
     ]),
     optional limit as (type number meta [
         Documentation.FieldCaption = Extension.LoadString("limitFieldCaption"),
